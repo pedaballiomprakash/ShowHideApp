@@ -1,0 +1,59 @@
+/* Write your CSS here */
+.container {
+  background: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 48px;
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.two-btn-name-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.name-button {
+  background-color: #ffffff;
+  color: #dd1264;
+  font-family: 'Roboto';
+  border: none;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  font-weight: 500;
+}
+
+.name-container {
+  height: 100px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 38px;
+  margin-right: 38px;
+}
+.name {
+  text-align: center;
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 24px;
+  background-color: #fddddb;
+  border-radius: 12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 108px;
+  padding-right: 108px;
+}
